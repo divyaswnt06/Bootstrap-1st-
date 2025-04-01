@@ -1,0 +1,158 @@
+*{ margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box;}
+
+.navbar .navbar-nav .nav-link {
+    color: #000 !important;
+}
+.navbar ul li a {
+    color: #000 !important;
+    transition: color 0.3s ease;
+}
+.navbar {
+    background-color: #f8f9fa; 
+}
+.banner { background-color:#DCE6FF; height:95vh; display:flex; align-items:center;}
+
+.banner, .wwa { text-align: left;}
+
+.banner h1 { font-weight:bold; color:#012970;}
+
+.banner .col-md-6, .col-md-7 { display:flex; align-items:center;}
+
+.banner img { padding:30px 0;}
+.wwa{ padding:20px;}
+
+.wwa h2 {
+    color: #0460ff;
+}
+.wwa img{ padding:30px 0;}
+
+.wwd{ padding:20px;}
+
+.wwd .col-md-4 {
+    padding: 15px; /* Adds inner spacing */
+}
+
+.wwd .img-fluid {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.img-fluid {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;  
+    margin-bottom: 20px;
+}
+
+.wwd img{ box-shadow:0 0 5px #A7A7A7;}
+
+.wwd h2 {
+    color: #0460ff;
+}
+
+
+.wwd h3{ padding:20px 0; font-weight:bold; }
+
+.hc {
+    padding: 40px 0;
+}
+
+.col-md-3 {
+    padding: 0 15px;
+}
+
+
+.col-md-3 .row {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.col-md-2 {
+    padding: 0;
+    width: auto;
+    margin-right: 15px;
+    min-width: 40px; 
+}
+
+
+.col-md-2 img {
+    height: 30px; 
+    width: auto;
+    opacity: 1; 
+    display: block; 
+}
+
+.col-md-10 {
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.col-md-10 h2 {
+    margin: 0;
+    font-size: 30px; 
+    font-weight: bold;
+    color: #333;
+}
+
+.col-md-10 p {
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.hc .col-md-2 img {
+    padding: 5px 0; 
+}
+
+/* Icon styling */
+.feature-icon {
+    font-size: 32px;
+    color: #4a4aff;
+    margin-top: 5px;
+}
+
+/* Feature text spacing */
+.feature-text h5 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.feature-text p {
+    margin-bottom: 0;
+    color: #6c757d;
+}
+
+/* Image styling */
+.mobile-img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Spacing between sections */
+.feature-box {
+    margin-bottom: 25px;
+}
+
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+	
+	.banner, .wwa{ text-align:left;}
+	
+	.wwa{ padding:50px 0;}
+	
+	.hc{ text-align:left;}
+	
+	
+	
+	
+}
